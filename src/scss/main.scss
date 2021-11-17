@@ -1,11 +1,10 @@
-//@import 'core/variables';
+@import 'core/variables';
 @import 'core/reset';
-//@import 'components/code';
-//@import 'components/links';
-//@import 'layout/page';
-//@import 'layout/header';
-//@import 'layout/footer';
-//@import 'pages/index';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
 a {
     text-decoration: none;
 }
@@ -18,51 +17,6 @@ li {
     display: inline;
 }
 
-body {
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-}
-
-.header {
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 0;
-    z-index: 1;
-}
-
-.header-logo-image {
-    height: 30px;
-    margin: 15px 20px;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.header-menu,
-.header-menu-login {
-    font-size: 10pt;
-    display: inline;
-    background-color: cadetblue;
-}
-
-.header-menu-login {
-    border-left: 1px solid white;
-}
-
-.header-menu-item {
-    margin: 0 10px;
-}
-
-.header-menu-link {
-    color: white;
-    background-color: violet;
-    margin: 0;
-    padding: 0;
-    border-collapse: collapse;
-}
-
 .main {
     position: relative;
     top: 50px;
@@ -71,25 +25,3 @@ body {
 .main-title {
     font-size: 20pt;
 }
-
-.hero {
-    background: url('../images/premium_dancer.png') right no-repeat #529cf1;
-    background-size: contain;
-    height: 50vh;
-}
-
-.hero-content {
-    width: 70%;
-}
-
-.hero-title {
-    font-size: 40pt;
-}
-
-.hero-text {}
-
-.hero-button {
-    background-color: #26b758;
-}
-
-.hero-text-small {}

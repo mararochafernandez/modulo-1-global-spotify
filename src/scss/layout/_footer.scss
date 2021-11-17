@@ -1,8 +1,15 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
-}
+.footer {}
+
+.footer__info {}
+
+.footer__info--language {}
+
+.footer__info--copyright {}
+
+.footer__nav {}
+
+.footer__nav--login {}
+
+.menu__item {}
+
+.menu__item--link {}

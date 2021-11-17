@@ -1,30 +1,25 @@
-<!--
-<header class="page__header">
-    <img src="./assets/images/logo-adalab.png" alt="Adalab" />
-    <h1>@@title</h1>
-</header>
--->
-
 <header class="header">
-    <a class="header-logo-link" href="#"><img class="header-logo-image" src="./assets/images/logo.png" alt="Spotify" title="Adalab" /></a>
-    <nav class="header-nav">
-        <ul class="header-menu">
-            <li class="header-menu-item">
-                <a class="header-menu-link" href="#">Premium</a>
+    <a class="header__logo" href="#"><img class="header__logo--image" src="./assets/images/logo.png" alt="Spotify" title="Spotify" /></a>
+
+    <nav class="header__nav">
+        <ul class="header__nav--main menu">
+            <li class="menu__item">
+                <include src="./link.html" aClass="menu__item--link" text="Premium" url="#"></include>
             </li>
-            <li class="header-menu-item">
-                <a class="header-menu-link" href="#">Ayuda</a>
+            <li class="menu__item">
+                <include src="./link.html" aClass="menu__item--link" text="Ayuda" url="#"></include>
             </li>
-            <li class="header-menu-item">
-                <a class="header-menu-link" href="#">Descarga</a>
+            <li class="menu__item">
+                <include src="./link.html" aClass="menu__item--link" text="Descarga" url="#"></include>
             </li>
         </ul>
-        <ul class="header-menu-login">
-            <li class="header-menu-item">
-                <a class="header-menu-link" href="#">Registrarse</a>
+
+        <ul class="header__nav--login menu">
+            <li class="menu__item">
+                <include src="./link.html" aClass="menu__item--link" text="Registrarse" url="#"></include>
             </li>
-            <li class="header-menu-item">
-                <a class="header-menu-link" href="#">Iniciar sesión</a>
+            <li class="menu__item">
+                <include src="./link.html" aClass="menu__item--link" text="Iniciar sesión" url="#"></include>
             </li>
         </ul>
     </nav>
