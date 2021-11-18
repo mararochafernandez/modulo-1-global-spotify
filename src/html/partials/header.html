@@ -1,25 +1,31 @@
 <header class="header">
-    <a class="header__logo" href="#"><img class="header__logo--image" src="./assets/images/logo.png" alt="Spotify" title="Spotify" /></a>
+    <!-- logo -->
+    <a class="header__logo" href="./"><img class="header__image" src="./assets/images/logo.png" alt="Spotify" title="Spotify" /></a>
 
     <nav class="header__nav">
-        <ul class="header__nav--main menu">
+        <!-- burger menu -->
+        <a class="burger" href="#"><img class="burger__image" src="./assets/images/menu-icon.png" alt="Menu" title="Menu"></a>
+
+        <!-- main menu (hidden by default) -->
+        <ul class="menu__main hidden">
             <li class="menu__item">
-                <include src="./link.html" aClass="menu__item--link" text="Premium" url="#"></include>
+                <include src="./link.html" aClass="menu__link" text="Premium" url="#"></include>
             </li>
             <li class="menu__item">
-                <include src="./link.html" aClass="menu__item--link" text="Ayuda" url="#"></include>
+                <include src="./link.html" aClass="menu__link" text="Ayuda" url="#"></include>
             </li>
             <li class="menu__item">
-                <include src="./link.html" aClass="menu__item--link" text="Descarga" url="#"></include>
+                <include src="./link.html" aClass="menu__link" text="Descarga" url="#"></include>
             </li>
         </ul>
 
-        <ul class="header__nav--login menu">
+        <!-- login menu (hidden by default) -->
+        <ul class="menu__login hidden">
             <li class="menu__item">
-                <include src="./link.html" aClass="menu__item--link" text="Registrarse" url="#"></include>
+                <include src="./link.html" aClass="menu__link" text="Registrarse" url="#"></include>
             </li>
             <li class="menu__item">
-                <include src="./link.html" aClass="menu__item--link" text="Iniciar sesión" url="#"></include>
+                <include src="./link.html" aClass="menu__link" text="Iniciar sesión" url="#"></include>
             </li>
         </ul>
     </nav>

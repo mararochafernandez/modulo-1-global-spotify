@@ -2,3 +2,21 @@ body {
     background-color: $color-background;
     font-family: $font-main;
 }
+
+.hidden {
+    display: none;
+}
+
+.menu {
+    &__item {
+        @media all and (min-width: 768px) {
+            margin: 0 10px;
+        }
+        &--link {
+            color: white;
+            margin: 0;
+            padding: 0;
+            border-collapse: collapse;
+        }
+    }
+}
