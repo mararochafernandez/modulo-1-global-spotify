@@ -11,12 +11,17 @@
         height: 40px;
         padding: 5px;
         margin: 10px 15px;
+        @media all and (min-width: 768px) {
+            height: 50px;
+            margin: 15px 0 15px 25px;
+        }
     }
     &__image {
-        height: 30px;
+        height: 100%;
     }
     &__nav {
-        margin: 0 15px;
+        margin: 0 15px 0 0;
+        display: flex;
     }
 }
 
@@ -32,24 +37,24 @@
     }
 }
 
-.main-menu {
-    background-color: red;
-    display: block;
-    line-height: 20px;
-}
-
-
-/*
-.header {
-    &__nav {
-        &--main,
-        &--login {
-            font-size: 10pt;
-            display: inline;
-        }
-        &--login {
-            border-left: 1px solid white;
-        }
+.main-menu,
+.login-menu {
+    display: none;
+    @media all and (min-width: 768px) {
+        display: block;
+    }
+    &__link {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: bold;
+        color: white;
+        padding: 5px;
+        margin: 0 10px;
     }
 }
-*/
+
+.login-menu {
+    border-left: 1px solid white;
+    padding-left: 20px;
+    margin-left: 20px;
+}
