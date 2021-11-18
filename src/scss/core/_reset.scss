@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
 }
 
 a {
@@ -11,12 +18,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-li {
-    display: inline;
-}
-
-ul {
-    list-style: none;
 }

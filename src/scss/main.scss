@@ -1,8 +1,14 @@
+// core
 @import 'core/variables';
 @import 'core/reset';
-@import 'components/links';
+// layout
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
+// components
+@import 'components/links';
+@import 'components/hero';
+@import 'components/article';
+// pages
 @import 'pages/index';

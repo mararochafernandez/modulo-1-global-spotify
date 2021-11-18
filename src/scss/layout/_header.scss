@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    line-height: 0;
     &__logo {
         height: 40px;
         padding: 5px;
@@ -19,13 +20,22 @@
     }
 }
 
-.burger {
+.burger-menu {
     display: block;
     width: 40px;
     padding: 5px;
+    @media all and (min-width: 768px) {
+        display: none;
+    }
     &__image {
         width: 100%;
     }
+}
+
+.main-menu {
+    background-color: red;
+    display: block;
+    line-height: 20px;
 }
 
 
