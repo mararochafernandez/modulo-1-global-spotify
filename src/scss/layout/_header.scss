@@ -11,7 +11,7 @@
         height: 40px;
         padding: 5px;
         margin: 10px 15px;
-        @media all and (min-width: 768px) {
+        @include tablet {
             height: 50px;
             margin: 15px 0 15px 25px;
         }
@@ -29,7 +29,7 @@
     display: block;
     width: 40px;
     padding: 5px;
-    @media all and (min-width: 768px) {
+    @include tablet {
         display: none;
     }
     &__image {
@@ -40,7 +40,7 @@
 .main-menu,
 .login-menu {
     display: none;
-    @media all and (min-width: 768px) {
+    @include tablet {
         display: block;
     }
     &__link {
@@ -50,11 +50,23 @@
         color: white;
         padding: 5px;
         margin: 0 10px;
+        @include tablet {
+            margin: 0 8px;
+        }
+        @include desktop {
+            margin: 0 10px;
+        }
     }
 }
 
 .login-menu {
     border-left: 1px solid white;
-    padding-left: 20px;
-    margin-left: 20px;
+    @include tablet {
+        padding-left: 16px;
+        margin-left: 16px;
+    }
+    @include desktop {
+        padding-left: 20px;
+        margin-left: 20px;
+    }
 }

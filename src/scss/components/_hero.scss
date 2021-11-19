@@ -1,7 +1,14 @@
 .hero {
-    background: url('../images/premium_dancer.png') right no-repeat #529cf1;
+    background: url('../images/premium_dancer.png') no-repeat #529cf1;
     background-size: contain;
+    padding-top: 20px;
     height: 50vh;
+    @include tablet {
+        background-position: right calc(100% + 40px);
+    }
+    @include desktop {
+        background-position: right calc(100% + 15px);
+    }
     &__content {
         width: 70%;
         &--title {

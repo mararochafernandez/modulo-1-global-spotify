@@ -6,3 +6,17 @@ sans-serif;
 // colors
 $color-background: #f3f4f5;
 $color-secondary: #999;
+
+/* media queries */
+
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
