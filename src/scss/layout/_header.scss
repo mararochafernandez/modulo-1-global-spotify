@@ -8,13 +8,9 @@
     z-index: 1;
     line-height: 0;
     &__logo {
-        height: 40px;
+        height: 50px;
         padding: 5px;
-        margin: 10px 15px;
-        @include tablet {
-            height: 50px;
-            margin: 15px 0 15px 25px;
-        }
+        margin: 15px 0 15px 25px;
     }
     &__image {
         height: 100%;
@@ -25,10 +21,14 @@
     }
 }
 
+
+/* burger menu estyles */
+
 .burger-menu {
     display: block;
     width: 40px;
     padding: 5px;
+    margin-right: 10px;
     @include tablet {
         display: none;
     }
@@ -36,6 +36,9 @@
         width: 100%;
     }
 }
+
+
+/* main menu and login menu styles */
 
 .main-menu,
 .login-menu {
@@ -51,9 +54,6 @@
         padding: 5px;
         margin: 0 10px;
         @include tablet {
-            margin: 0 8px;
-        }
-        @include desktop {
             margin: 0 10px;
         }
     }
@@ -62,10 +62,6 @@
 .login-menu {
     border-left: 1px solid white;
     @include tablet {
-        padding-left: 16px;
-        margin-left: 16px;
-    }
-    @include desktop {
         padding-left: 20px;
         margin-left: 20px;
     }

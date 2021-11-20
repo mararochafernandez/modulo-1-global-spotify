@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify Premium</title>
+    <title>Spotify</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
 
@@ -26,45 +26,48 @@
             <!-- main menu (hidden by default) -->
             <ul class="main-menu">
                 <li class="main-menu__item">
-                    <a class="main-menu__link" href="#">Premium</a>
+                    <a class="main-menu__link" href="#" title="Premium">Premium</a>
                 </li>
                 <li class="main-menu__item">
-                    <a class="main-menu__link" href="#">Ayuda</a>
+                    <a class="main-menu__link" href="#" title="Ayuda">Ayuda</a>
                 </li>
                 <li class="main-menu__item">
-                    <a class="main-menu__link" href="#">Descargar</a>
+                    <a class="main-menu__link" href="#" title="Descargar">Descargar</a>
                 </li>
             </ul>
 
             <!-- login menu (hidden by default) -->
             <ul class="login-menu">
                 <li class="login-menu__item">
-                    <a class="login-menu__link" href="#">Registrarse</a>
+                    <a class="login-menu__link" href="#" title="Registrarse">Registrarse</a>
                 </li>
                 <li class="login-menu__item">
-                    <a class="login-menu__link" href="#">Iniciar sesión</a>
+                    <a class="login-menu__link" href="#" title="Iniciar sesión">Iniciar sesión</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main class="main">
+
+        <!-- hero -->
         <section class="hero">
-            <section class="hero__content">
-                <h1 class="hero__content--title">Prueba Premium gratis 3 meses</h1>
+            <article class="hero__content">
+                <h1 class="hero__title">Prueba Premium gratis 3 meses</h1>
 
-                <p class="hero__content--text">
+                <h2 class="hero__subtitle">
                     Escucha millones de canciones sin anuncios, a la carta y sin conexión.
-                </p>
+                </h2>
 
-                <a class="hero__content--button" href="#">Ver planes</a>
+                <a class="hero__button" href="#" title="Ver planes">Ver planes</a>
 
-                <small class="hero__content--smalltext">
+                <small class="hero__text">
                     Rigen términos y condiciones. Los tres meses gratis no están disponibles para usuarios que ya hayan probado Premium.
                 </small>
-            </section>
+            </article>
         </section>
 
+        <!-- benefits -->
         <section class="benefits">
             <h2 class="benefit__title">¿Por qué pasarte a Premium?</h2>
 
@@ -95,23 +98,30 @@
     </main>
 
     <footer class="footer">
+
+        <!-- footer info -->
         <section class="footer__info">
+
+            <!-- footer language -->
             <p class="footer__language">
                 España<img src="./assets/images/flag.png" alt="España" title="España" />
             </p>
+
+            <!-- footer copyright -->
             <p class="footer__copyright">&copy; 2019 Spotify AB</p>
         </section>
 
+        <!-- footer menu -->
         <nav class="footer__nav">
             <ul class="menu__footer">
                 <li class="menu__item">
-                    <a class="menu__link" href="#">Legal</a>
+                    <a class="menu__link" href="#" title="Legal">Legal</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="#">Cookies</a>
+                    <a class="menu__link" href="#" title="Cookies">Cookies</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="#">Información sobre los anuncios</a>
+                    <a class="menu__link" href="#" title="Información sobre los anuncios">Información sobre los anuncios</a>
                 </li>
             </ul>
         </nav>

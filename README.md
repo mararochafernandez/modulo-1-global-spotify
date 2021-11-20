@@ -1,3 +1,27 @@
+# Maquetación de la página web de Spotify
+
+Ejercicio global del módulo 1 (HTML y CSS) del curso de Adalab.
+
+Objetivo: estructurar y maquetar la página web de [Spotify](https://www.spotify.com/es/premium/) desde cero.
+
+## Versión mobile, tablet y desktop
+
+<table>
+  <tr>
+    <td>
+      <img src="./design/mobile.jpg" alt="Mobile version" height="200"/>
+    </td>
+    <td>
+      <img src="./design/tablet.jpg" alt="Tablet version" height="200"/>
+    </td>
+    <td>
+      <img src="./design/desktop.jpg" alt="Desktop version" height="200"/>
+    </td>
+  </tr>
+</table>
+
+***
+
 # Ejercicio global de HTML y CSS
 
 El objetivo de este ejercicio es aprender a estructurar y maquetar una página web desde cero. Por ello nos vamos a preocupar de que la distribucción de elementos de la página esté perfecta.

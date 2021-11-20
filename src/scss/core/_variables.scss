@@ -1,13 +1,24 @@
-// fonts
+/* fonts */
+
 $font-main: Montserrat,
 Helvetica,
 Arial,
 sans-serif;
-// colors
+
+/* colors */
+
 $color-background: #f3f4f5;
-$color-secondary: #999;
+$color-main: #529cf1;
+$color-secondary: #26b758;
+$color-info: #999;
 
 /* media queries */
+
+@mixin mobile {
+    @media (max-width: 500px) {
+        @content;
+    }
+}
 
 @mixin tablet {
     @media (min-width: 768px) {
