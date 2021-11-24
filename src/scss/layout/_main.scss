@@ -18,5 +18,39 @@
 /* benefits styles */
 
 .benefits {
-    background-color: $color-background;
+    background-color: white;
+    padding: 40px 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    align-content: space-between;
+    &__title {
+        grid-column: span 2;
+        font-size: 40px;
+        font-weight: 800;
+        place-self: center;
+        background-color: burlywood;
+    }
+    &__article {
+        display: grid;
+        grid-template-columns: 90px 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        align-content: start;
+        background-color: aqua;
+    }
+    &__image {
+        width: 90px;
+        height: 90px;
+        grid-row: span 2;
+    }
+    &__subtitle {
+        display: block;
+        font-size: 17px;
+    }
+    &__text {
+        font-size: 14px;
+    }
 }
